@@ -34,17 +34,19 @@
     text-align: center;
     margin-top: 80px;
 }
+
 /* section 65% off style */
 
-.off-content{
+.off-content {
     border: 1px solid lime;
     border: none;
     height: 800px;
     width: 800px;
     margin-left: 200px;
 }
+
 .off {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: red;
     font-size: 50px;
     margin-bottom: 30px;
@@ -54,18 +56,19 @@
     color: red;
     font-size: 20px;
     margin-bottom: 15px;
-    font-style:italic;
+    font-style: italic;
 }
 
 .all {
     color: black;
     font-size: 38px;
     margin-bottom: 40px;
-    font-family: cursive ;
+    font-family: cursive;
 }
+
 /* welcome to style` */
 
-.Welcome-box{
+.Welcome-box {
     margin-top: 50px;
     display: flex;
     border: 1px solid tomato;
@@ -76,31 +79,34 @@
     padding: 70px;
     background-image: url('Vectorrr.png');
 }
-.welcome{
-    color:white;
+
+.welcome {
+    color: white;
     font-size: 90px;
-padding: 70px 280px 0px 40px ;
+    padding: 70px 280px 0px 40px;
 }
-.welcome-description{
-    color:lime;
+
+.welcome-description {
+    color: lime;
     font-size: 20px;
-    padding: 30px 250px 0px 40px ;
+    padding: 30px 250px 0px 40px;
 }
-.join{
-   color:honeydew;
-   font-size: 20px;
-   height: 60px;
-   width: 180px;
-   background: none;
-   border: none;
+
+.join {
+    color: honeydew;
+    font-size: 20px;
+    height: 60px;
+    width: 180px;
+    background: none;
+    border: none;
     margin-top: 30px;
     margin-left: 70px;
 }
 
 /* place-info style */
 
-.place-info{
-    background-color:linen;
+.place-info {
+    background-color: linen;
     border: 1px solid blueviolet;
     height: 400px;
     width: 1320px;
@@ -111,11 +117,13 @@ padding: 70px 280px 0px 40px ;
     margin-top: 100px;
     padding: 100px 0px;
 }
-.red{
+
+.red {
     color: red;
 }
-.join-now{
-    color:white;
+
+.join-now {
+    color: white;
     background-color: red;
     font-size: 20px;
     border: none;
@@ -124,31 +132,69 @@ padding: 70px 280px 0px 40px ;
     width: 180px;
     margin-top: 50px;
 }
-section button:hover{
+
+section button:hover {
     background-color: #7cfc00;
 }
+
 /* circle-box style */
 
 .circle-box{
+    display: flex;
+}
+.circle-box {
     border: 1px solid fuchsia;
     height: 460px;
     width: 1320px;
+    border: none;
+    margin-top: 100px;
 }
-.circle-content{
-    padding: 100px 1000px 100px 0px;
+
+.circle-content {
+    border: 1px solid greenyellow;
+    height: 280px;
+    width: 900px;
+    border: none;
+    padding: 100px 30px 100px 0px;
 }
-.new-tittle{
-color: red;
-font-size: 25px;
+
+.new-tittle {
+    color: red;
+    font-size: 25px;
 }
-.comming-tittle{
+
+.comming-tittle {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.circle-box-description {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.circle-pic {
+    border: 15px solid red;
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 50%;
+    margin:10px 40px 5px 80px;
+    margin-left: 10px;
+}
+
+.sal-tittle {
+    padding: 100px 0px 0px 80px;
+    /* margin-left: 50px; */
+}
+
+.sal {
+    color: red;
     font-size: 60px;
 }
-.circle-box-description{
+
+.sal-description {
     font-size: 20px;
-}
-.circle-pic{
-    border: 15px solid red;
-    border-spacing: 40px;
-    border-bottom-left-radius: 40px;
+    margin-bottom: 50px;
+
 }
