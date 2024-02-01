@@ -36,20 +36,32 @@
 }
 /* section 65% off style */
 
+.off-content{
+    border: 1px solid lime;
+    border: none;
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+}
 .off {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     color: red;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .our {
     color: red;
     font-size: 20px;
+    margin-bottom: 15px;
+    font-style:italic;
 }
 
 .all {
     color: black;
     font-size: 38px;
+    margin-bottom: 40px;
+    font-family: cursive ;
 }
 /* welcome to style` */
 
@@ -57,22 +69,55 @@
     margin-top: 50px;
     display: flex;
     border: 1px solid tomato;
-    height: 600px;
-    width: 1320px;
+    border: none;
+    height: 450px;
+    width: 1180px;
+    border-radius: 10px;
     padding: 70px;
+    background-image: url('Vectorrr.png');
 }
 .welcome{
-    color:lime;
+    color:white;
     font-size: 90px;
-padding: 70px 300px 0px 40px ;
+padding: 70px 280px 0px 40px ;
 }
 .welcome-description{
-    color: blue;
+    color:lime;
     font-size: 20px;
     padding: 30px 250px 0px 40px ;
 }
 .join{
-    color:red;
+   color:honeydew;
+   background: none;
+   border: none;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 70px;
+}
+
+/* place-info style */
+
+.place-info{
+    background-color:linen;
+    border: 1px solid blueviolet;
+    height: 400px;
+    width: 1320px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+.red{
+    color: red;
+}
+.join-now{
+    color:white;
+    background-color: red;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 180px;
+    margin-top: 50px;
 }
