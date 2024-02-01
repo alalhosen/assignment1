@@ -1,24 +1,78 @@
+.body {
+    margin: 50px 100px 0px 100px;
+    display: block;
+}
+
 .header-content {
-    text-align: center;
+    align-items: center;
     color: white;
     border: 1px solid #7cfc00;
-  height: 400px;
-  width: 620px;
-  padding: 100px 300px 100px 300px;
-  
+    border: none;
+    height: 400px;
+    width: 700px;
+    padding: 100px 300px 100px 300px;
+    background-image: url('Banner\ Image.png');
+    background-repeat: no-repeat;
+
 }
 
 .header-ti {
     font-size: 40px;
-   
+    text-align: center;
 }
 
 .header-tittle {
     font-size: 80px;
- 
+    color: cyan;
+    text-align: center;
 }
 
-.header-pic {
-    background-image: url('Banner\ Image.png');
-    background-repeat: no-repeat;
+
+/* 65%-off style */
+
+.off-content {
+    text-align: center;
+    margin-top: 80px;
+}
+/* section 65% off style */
+
+.off {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.our {
+    color: red;
+    font-size: 20px;
+}
+
+.all {
+    color: black;
+    font-size: 38px;
+}
+/* welcome to style` */
+
+.Welcome-box{
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid tomato;
+    height: 600px;
+    width: 1320px;
+    padding: 70px;
+}
+.welcome{
+    color:lime;
+    font-size: 90px;
+padding: 70px 300px 0px 40px ;
+}
+.welcome-description{
+    color: blue;
+    font-size: 20px;
+    padding: 30px 250px 0px 40px ;
+}
+.join{
+    color:red;
+    margin-top: 30px;
+    margin-left: 50px;
 }
