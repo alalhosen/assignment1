@@ -1,0 +1,24 @@
+.header-content {
+    text-align: center;
+    color: white;
+    border: 1px solid #7cfc00;
+  height: 400px;
+  width: 620px;
+  padding: 100px 300px 100px 300px;
+  
+}
+
+.header-ti {
+    font-size: 40px;
+   
+}
+
+.header-tittle {
+    font-size: 80px;
+ 
+}
+
+.header-pic {
+    background-image: url('Banner\ Image.png');
+    background-repeat: no-repeat;
+}
