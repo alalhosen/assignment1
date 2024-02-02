@@ -342,32 +342,35 @@ div div img:hover {
 /* Footer style */
 
 .footer {
-    color: lime;
+    color:white;
+    background-color: rgb(44, 33, 33);
     font-size: 30px;
     margin-top: 100px;
-    border: 2px solid lightgreen;
+    border: 2px solid rgb(29, 10, 244);
     height: 600px;
-    width: 1400px;
-    display: flex   ;
+    width: 1500px;border-radius: 10px;
 }
 
 .para-one {
+    display: flex;
+    padding: 100px 100px 0px 100px;
 }
 
 .footer-description {
-
     font-size: 30px;
-    padding: 100px 900px 0px 100px;
+    padding-right: 550px;
+}
+.footer-icon {
+    text-align: center;
+    padding: 30px 0px;
 }
 
-.anchor {
-   
+.footer-last {
+    display: flex;
+    padding: 0px 100px;
 }
 
-.number{
-
-}
-
-.website{
-
+.unsubscribe {
+    text-align: right;
+    padding-left: 600px;
 }
