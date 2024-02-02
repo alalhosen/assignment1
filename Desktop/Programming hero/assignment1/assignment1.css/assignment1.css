@@ -1,6 +1,6 @@
 .body {
     margin: 50px 100px 0px 100px;
-    display: block;
+    /* display: block; */
 }
 
 .header-content {
@@ -202,9 +202,9 @@ section button:hover {
 /* Holidays-sale-style */
 
 .holiday-sale {
-   border: 2px solid greenyellow;
-   height: 985px;
-   width: 1320px;
+    border: 2px solid greenyellow;
+    height: 985px;
+    width: 1320px;
     margin-bottom: 50px;
     background-image: url('Rectangle\ 2.png');
     background-position: bottom;
@@ -273,7 +273,7 @@ img:hover {
     border: 1px solid greenyellow;
     height: 1160px;
     width: 1320px;
-    margin-top: 100px;
+    margin-top: 130px;
     border: none;
 }
 
@@ -290,6 +290,84 @@ img:hover {
     font-size: 20px;
     padding-right: 550px;
 }
-div div img:hover{
-    background-color:#7cfc00;
+
+div div img:hover {
+    background-color: #7cfc00;
+}
+
+/* Subscribe Newsletter style*/
+
+.subscribe {
+    border: 3px solid indigo;
+    height: 615px;
+    width: 1280px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.subscribe-tittle {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.subscribe-description {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.Subscribe-btn {
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    height: 80px;
+    width: 250px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+}
+
+.user-gmail {
+    height: 80px;
+    width: 300px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 30px;
+    border: none;
+}
+
+/* Footer style */
+
+.footer {
+    color: lime;
+    font-size: 30px;
+    margin-top: 100px;
+    border: 2px solid lightgreen;
+    height: 600px;
+    width: 1400px;
+    display: flex   ;
+}
+
+.para-one {
+}
+
+.footer-description {
+
+    font-size: 30px;
+    padding: 100px 900px 0px 100px;
+}
+
+.anchor {
+   
+}
+
+.number{
+
+}
+
+.website{
+
 }
