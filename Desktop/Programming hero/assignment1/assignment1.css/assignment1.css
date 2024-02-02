@@ -139,9 +139,10 @@ section button:hover {
 
 /* circle-box style */
 
-.circle-box{
+.circle-box {
     display: flex;
 }
+
 .circle-box {
     border: 1px solid fuchsia;
     height: 460px;
@@ -179,7 +180,7 @@ section button:hover {
     width: 350px;
     padding: 30px;
     border-radius: 50%;
-    margin:10px 40px 5px 80px;
+    margin: 10px 40px 5px 80px;
     margin-left: 10px;
 }
 
@@ -197,4 +198,38 @@ section button:hover {
     font-size: 20px;
     margin-bottom: 50px;
 
+}
+/* Holidays-sale-style */
+
+.holiday-sale {
+    border: 1px solid salmon;
+    height: 985px;
+    width: 1320px;
+}
+.sale-content{
+    text-align: center;
+    padding: 0px 300px;
+}
+.sale-what {
+    font-size: 30px;
+}
+
+.sale-tittle {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+}
+
+.holidays-red {
+    color: red;
+}
+.sale-description{
+    font-size: 20px;
+}
+.sale-pic-one{
+ text-align: right;   
+}
+.sale-pic-second{
+    text-align:center;
+    padding: 0px 0px 400px 400px;
+    margin-bottom: 500px;
 }
